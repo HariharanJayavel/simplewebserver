@@ -26,27 +26,27 @@ Testing the webserver.
 					<th> Revenue Generated </th>
 				</tr>
 				<tr>
-					<th> 1, </th>
+					<th> 1 </th>
 					<td> Microsoft </td>
 					<td> $203.08 billion </td>
 				</tr>
 				<tr>
-					<th> 2, </th>
+					<th> 2 </th>
 					<td> Oracle </td>
 					<td> $46.07 billion </td>
 				</tr>
 				<tr>
-					<th> 3, </th>
+					<th> 3 </th>
 					<td> SAP </td>
 					<td> $32.97 billion </td>
 				</tr>		
 				<tr>
-					<th> 4, </th>
+					<th> 4 </th>
 					<td> Salesforce </td>
 					<td> $30.29 billion </td>							
 				</tr>
 				<tr>
-					<th> 5, </th>
+					<th> 5 </th>
 					<td> Adobe </td>
 					<td> $17.61 billion </td>
 				</tr>
