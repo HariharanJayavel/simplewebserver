@@ -1,13 +1,43 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-<!DOCTYPE html>
 <html>
-<head>
-<title>My webserver</title>
-</head>
-<body>
-<h1>Welcome<h1>
-</body>
+	<title> Revenue chart </title>
+	<body>
+		<table border="2" cellspacing="2" cellpadding="3">
+			<caption> Top five highest revenue generating software companies </caption>
+				<tr>
+					<th> Serial Number </th>
+					<th> Companies </th>
+					<th> Revenue Generated </th>
+				</tr>
+				<tr>
+					<th> 1 </th>
+					<td> Microsoft </td>
+					<td> $203.08 billion </td>
+				</tr>
+				<tr>
+					<th> 2 </th>
+					<td> Oracle </td>
+					<td> $46.07 billion </td>
+				</tr>
+				<tr>
+					<th> 3 </th>
+					<td> SAP </td>
+					<td> $32.97 billion </td>
+				</tr>		
+				<tr>
+					<th> 4 </th>
+					<td> Salesforce </td>
+					<td> $30.29 billion </td>
+				</tr>
+				<tr>
+					<th> 5 </th>
+					<td> Adobe </td>
+					<td> $17.61 billion </td>
+				</tr>
+
+		</table> 
+	</body>
 </html>
 """
 class myhandler(BaseHTTPRequestHandler):

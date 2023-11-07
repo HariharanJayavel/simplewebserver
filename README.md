@@ -1,5 +1,5 @@
 # EX01 Developing a Simple Webserver
-## Date:06/10/2023
+## Date:06.10.2023
 ## AIM:
 To develop a simple webserver to serve html pages.
 ## DESIGN STEPS:
@@ -15,6 +15,8 @@ Serving the HTML pages.
 Testing the webserver.
 ## PROGRAM:
 ```
+from http.server import HTTPServer, BaseHTTPRequestHandler
+content = """
 <html>
 	<title> Revenue chart </title>
 	<body>
@@ -43,7 +45,7 @@ Testing the webserver.
 				<tr>
 					<th> 4 </th>
 					<td> Salesforce </td>
-					<td> $30.29 billion </td>							
+					<td> $30.29 billion </td>
 				</tr>
 				<tr>
 					<th> 5 </th>
@@ -53,19 +55,6 @@ Testing the webserver.
 
 		</table> 
 	</body>
-</html>
-```
-```
-from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """
-<!DOCTYPE html>
-<html>
-<head>
-<title>My webserver</title>
-</head>
-<body>
-<h1>Welcome<h1>
-</body>
 </html>
 """
 class myhandler(BaseHTTPRequestHandler):
@@ -81,9 +70,8 @@ print("my webserver is running...")
 httpd.serve_forever()
 ```
 ## OUTPUT:
-![sws](https://github.com/HariharanJayavel/simplewebserver/assets/144870546/230db985-b161-47c7-8499-000d546dfbd7)
-
-![Screenshot 2023-10-28 134129](https://github.com/HariharanJayavel/simplewebserver/assets/144870546/e53c9ebd-34c9-4853-81ec-f27ad9fa3fdf)
+![Alt text](<Screenshot 2023-11-07 125047.png>)
+![Alt text](<Screenshot 2023-11-07 124959.png>)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
